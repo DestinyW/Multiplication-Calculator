@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+            <div id="content">
+            <h1>Multiplication Calculator</h1>
+            <form method="dialog">
+                <div id="form_labels">
+                    <label for="num1" > First Number:
+                        <input type="number" id="num1" placeholder="Type Number" required>
+                    </label>
+                    <label for="num2" > Second Number:
+                        <input type="number" id="num2" placeholder="Type Number" required>
+                    </label>
+                </div>
+                <div id="both_buttons">
+                    <button id="mult">Multiply Numbers</button>
+                    <button id="clear">Clear</button>
+                </div>
+            </form>
+
+            <!-- Another way to store the result -->
+            <!-- <label for="print_result"> Result: 
+                <input type="text" id="print_result">
+            </label> -->
+
+            <p id="print_result">Result: </p>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

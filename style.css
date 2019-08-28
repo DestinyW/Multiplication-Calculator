@@ -1,0 +1,58 @@
+* {
+    /* reset - zeros out additional margins & padding */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    background-color: lightsteelblue; 
+    
+}
+
+#container {
+    width: 56.66%;
+    margin: auto;
+    border: 5px red dashed;
+    padding: 25px;
+    margin-top: 8%;
+    background-color: silver;
+}
+
+#content {
+    padding: 20px;
+    border: black solid;
+    background-color: snow; 
+}
+
+h1 {
+    text-shadow: 1px 1px 4px gray;
+}
+
+form {
+    margin: 15px;
+}
+#form_labels label {
+    display: block;
+    margin: 10px;
+}
+
+#form_labels input {
+    padding: 2px;
+    border: 0.5px black solid;
+}
+
+#both_buttons {
+    margin: 15px;
+}
+
+#both_buttons button {
+    padding: 5px;
+    border-radius: 8px; 
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+
